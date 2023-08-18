@@ -13,6 +13,13 @@ public class App {
     public static void main( String[] args ) {
         try{
             Scanner scanner = new Scanner(System.in);
+
+            UpperLowerCase uCase = new UpperLowerCase();
+            System.out.println(uCase.wordToUpperCase("joseph tamarakro ehizoba naomi"));
+
+            UpperLowerCase lcase = new UpperLowerCase();
+            System.out.println(lcase.wordToLowerCase("GOOD THINGS HAPPEN TO ANYONE"));
+
             System.out.println("Enter First Number");
             double first = scanner.nextDouble();
             System.out.println("Enter operator +, -, /, 0r *.");
