@@ -2,6 +2,7 @@ package com.interswitch.newmvn;
 
 import com.interswitch.maven.Arithmetic;
 
+import java.time.LocalDate;
 import java.util.Scanner;
 
 /**
@@ -19,6 +20,9 @@ public class App {
 
             UpperLowerCase lcase = new UpperLowerCase();
             System.out.println(lcase.wordToLowerCase("GOOD THINGS HAPPEN TO ANYONE"));
+            System.out.println("New Go-home feature by " +
+                    "BackboneTeam suggested at "
+                    + LocalDate.now());
 
             System.out.println("Enter First Number");
             double first = scanner.nextDouble();
